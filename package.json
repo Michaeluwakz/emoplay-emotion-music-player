@@ -1,0 +1,41 @@
+{
+  "name": "emoplay-emotion-music-player",
+  "version": "1.0.0",
+  "description": "🎵 Emotion-based music player using facial recognition and Spotify API",
+  "main": "Index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "serve": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build process needed for static files'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "emotion",
+    "music",
+    "spotify",
+    "facial-recognition",
+    "tensorflow",
+    "web-audio",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/emoplay-emotion-music-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/emoplay-emotion-music-player/issues"
+  },
+  "homepage": "https://github.com/yourusername/emoplay-emotion-music-player#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
